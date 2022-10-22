@@ -11,10 +11,11 @@
 ## Overview
 
 ![](./screenshot.jpg)
+![](./screenshot.png)
+
 
 ### Links
 
-- Solution URL: [Github](https://github.com/SteveNoyes/te)
 - Live Site URL: [Github Pages](https://stevenoyes.github.io/te/)
 
 ## My process
