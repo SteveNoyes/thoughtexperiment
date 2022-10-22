@@ -1,1 +1,0 @@
-document.getElementById("allHere").style.color = "green";
