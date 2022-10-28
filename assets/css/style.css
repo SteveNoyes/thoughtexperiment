@@ -1,27 +1,45 @@
+:root {
+  --main-bg-color: brown;
+  --secondary-bg-color: gray;
+  --lite-bg-color: white;
+  --main-bg-color: blue;
+  --main-bg-color: gold;
+  --main-bg-color: purple;
+}
 
 body {
-  background-color: rgb(178, 167, 228);
+  background-color: rgb(202, 199, 212);
 }
 
-.spCadBlue {
-  background-color: #1a2c56;
+
+element {
+  background-color: var(--main-bg-color);
 }
-.pupNav {
-  background-color: #4d5988;
+
+
+.royalBlue {
+  background-color: #3277dc;
+}
+.goldenRod {
+  background-color: #d4a418;
+}
+.blanAlm {
+  background-color: #ffeeca;
 }
 .Alab { 
   background-color: #f1f1e6;
 }
-.lemCur {
-  background-color: #d2a517;
+.gldFusn {
+  background-color: #867555;
 }
 .cadBlue {
-  background-color: #a8aabc;
+  background-color: #a7aabd;
 }
 
 .sqSamples {
   height: 100px;
   width: 100px;
+  border-radius: 10px;
   margin-bottom: 2rem;
-  color: white;
+  text-align: center;
 }
