@@ -1,0 +1,27 @@
+
+body {
+  background-color: rgb(178, 167, 228);
+}
+
+.spCadBlue {
+  background-color: #1a2c56;
+}
+.pupNav {
+  background-color: #4d5988;
+}
+.Alab { 
+  background-color: #f1f1e6;
+}
+.lemCur {
+  background-color: #d2a517;
+}
+.cadBlue {
+  background-color: #a8aabc;
+}
+
+.sqSamples {
+  height: 100px;
+  width: 100px;
+  margin-bottom: 2rem;
+  color: white;
+}
