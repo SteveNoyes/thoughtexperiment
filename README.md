@@ -60,20 +60,17 @@ const proudOfThisFunc = () => {
 ```
 
 Font 
-  fld.org storybook font alice B inside a larger D color to be determined. Color blue (1A2C56) and gold (D1A683)
 
-Color Scheme for now:
 
-  Blue - Space Cadet
-    1a2c56
-  Lite Blue - Purple Navy
-    4d5988
-  Lite - Alabaster
-    f1f1e6
-  Gold - Lemon Curry
-    d2a517
-  Gray - Cadet Blue
-    a8aabc
+Color Scheme:
+
+  Royal Blue(from logo) #3277dc
+  Goldenrod             #d4a418
+  Blanched Almond       #ffeeca
+  Alabaster             #f1f1e6
+  Gold Fusion           #867555
+  Cadet Blue            #a7aabd
+
 
 ### Continued development
 
