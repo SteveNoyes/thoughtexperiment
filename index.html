@@ -16,12 +16,37 @@
   <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;400;700&display=swap" rel="stylesheet">
   <!-- Title -->
   <title>te.alt</title>
-	<!-- support option -->
+	<!-- Bootstrap CDN -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
   <!-- External CSS -->
+  <link rel="stylesheet" href="assets/css/reset.css">
   <link rel="stylesheet" href="/assets/css/style.css">
 
 </head>
-<body>
+<body class="h-100">
+  <nav class="navbar navbar-expand-md navbar-dark bg-dark" aria-label="Fourth navbar example">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Expand at md</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample04" aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarsExample04">
+        <ul class="navbar-nav me-auto mb-2 mb-md-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled">Disabled</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
 	<div class="royalBlue sqSamples">Royal Blue</div>
   <div class="goldenRod sqSamples">Goldenrod</div>
   <div class="blanAlm sqSamples">Blanched Almond</div>
@@ -31,6 +56,22 @@
   <div class="colorSel">
     <img src="assets/img/heroImg.jpg" alt="" width="100%" height="auto">
   </div>
+
+  <div class="container">
+    <footer class="py-3 my-4">
+      
+      <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Home</a></li>
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Features</a></li>
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Pricing</a></li>
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">FAQs</a></li>
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">About</a></li>
+      </ul>
+      <p class="text-center text-muted">&copy; 2022 Company, Inc</p>
+    </footer>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous"></script>
   <script src="assets/js/script.js"></script>
 </body>
 </html>
