@@ -1,21 +1,24 @@
 :root {
-  --main-bg-color: brown;
-  --secondary-bg-color: gray;
-  --lite-bg-color: white;
-  --main-bg-color: blue;
-  --main-bg-color: gold;
-  --main-bg-color: purple;
+  /* Royal Blue */
+  --main-color: #3277dc;
+  /* Goldenrod */
+  --secondary-color: #d4a418;
+  /* Blanched Almond */
+  --lite-color: #ffeeca;
+  /* Alabaser */
+  --alabaster-color: #f1f1e6;
+  /* Gold Fusion */
+  --darker-color: #867555;
+  /* Cadet Blue */
+  --liteDark-color: #a7aabd;
 }
+
+/* Font Sizes 100, 400, 700 */
 
 body {
-  background-color: rgb(202, 199, 212);
+  background-color: var(--lite-color);
+  font-family: 'Lato', sans-serif, monospace;
 }
-
-
-element {
-  background-color: var(--main-bg-color);
-}
-
 
 .royalBlue {
   background-color: #3277dc;
