@@ -51,26 +51,187 @@
       <span class="align-text-bottom">number email and something else</span>
     </section><!-- End of Hero Section -->
     
-    <div class="royalBlue sqSamples">Royal Blue</div>
-    <div class="goldenRod sqSamples">Goldenrod</div>
-    <div class="blanAlm sqSamples">Blanched Almond</div>
-    <div class="Alab sqSamples">Alabaster</div>
-    <div class="gldFusn sqSamples">Gold Fusion</div>
-    <div class="cadBlue sqSamples">Cadet Blue</div>
-    <div class="colorSel">
-      <img src="assets/img/heroImg.jpg" alt="" width="100%" height="auto">
+    <!-- Color Scheme -->
+    <div class="colorSamples d-flex justify-content-center">
+      <div class="royalBlue sqSamples">Royal Blue</div>
+      <div class="goldenRod sqSamples">Goldenrod</div>
+      <div class="blanAlm sqSamples">Blanched Almond</div>
+      <div class="Alab sqSamples">Alabaster</div>
+      <div class="gldFusn sqSamples">Gold Fusion</div>
+      <div class="cadBlue sqSamples">Cadet Blue</div>
     </div>
+
     <!-- About Section -->
-    <div class="container">
-      <h1>about</h1>
+    <div class="container text-center">
+      <h1>About</h1>
       <p>Davis P. Bauer has been practicing in Arizona for over 2 years, during which time he has had significant arbitration and trial experience in the areas of collections law and civil litigation. Mr. Bauer has had experience managing his own firm in Arizona, where he was working with several small and large commercial creditors in collections disputes, while also successfully defending against FDCPA and TCPA claims.</p>
-      <p>Mr. Bauer received his Bachelor of Science Degree in Marketing from the University of Arizona, Eller College of Management in 2014. As a student at the University of Arizona, he received Dean’s List and other academic honors while showing a passion for entrepreneurship. Most notably, he co-founded the UA Campus Pantry, which is one of the most successful college food banks in the country, and a part of the University of Arizona Foundation. After working in corporate sales for one of the largest payroll providers on the globe, Automatic Data Processing, he received his Juris Doctorate degree from the University of Kansas School of Law in 2018. Mr. Bauer received the CALI Award in his first year Contracts class. Following his first year of law school, he returned to Tucson, Arizona where he completed a summer externship for the Honorable Raner C. Collins, at the United States District Court. During his time in Lawrence, Kansas, Mr. Bauer was also a staff member at KU Legal Services for Students, where he assisted attorneys and helped KU students and staff with a plethora of different legal issues. Mr. Bauer also received the Advocacy Skills Certificate at KU Law while being an active member in several different student organizations, most notably the Military Law Society.</p>
+      <p>Mr. Bauer received his Bachelor of Science Degree in Marketing from the University of Arizona, Eller College of Management in 2014. As a student at the University of Arizona, he received Dean's List and other academic honors while showing a passion for entrepreneurship. Most notably, he co-founded the UA Campus Pantry, which is one of the most successful college food banks in the country, and a part of the University of Arizona Foundation. After working in corporate sales for one of the largest payroll providers on the globe, Automatic Data Processing, he received his Juris Doctorate degree from the University of Kansas School of Law in 2018. Mr. Bauer received the CALI Award in his first year Contracts class. Following his first year of law school, he returned to Tucson, Arizona where he completed a summer externship for the Honorable Raner C. Collins, at the United States District Court. During his time in Lawrence, Kansas, Mr. Bauer was also a staff member at KU Legal Services for Students, where he assisted attorneys and helped KU students and staff with a plethora of different legal issues. Mr. Bauer also received the Advocacy Skills Certificate at KU Law while being an active member in several different student organizations, most notably the Military Law Society.</p>
       <p>Mr. Bauer is a member of the Arizona State and Federal Bar, Colorado State Bar, and Missouri State Bar. He is also a member of the Weld County Bar Association and the San Luis Valley Bar Association in Colorado. He spent 2 years as a teaching assistant at the University of Kansas School of Business where he took part in lectures and discussion sections for KU Business students in MGMT 405: Ethical Decision Making in Business. He is also an accomplished amateur golfer with 3 career aces and enjoys playing basketball, swimming, and yoga in his free time.</p>
     </div>
+
+    <div class="p-5 mb-4 bg-light rounded-3">
+      <div class="container-fluid py-5">
+        <h1 class="display-5 fw-bold">Custom jumbotron</h1>
+        <p class="col-md-8 fs-4">Using a series of utilities, you can create this jumbotron, just like the one in previous versions of Bootstrap. Check out the examples below for how you can remix and restyle it to your liking.</p>
+        <button class="btn btn-primary btn-lg" type="button">Example button</button>
+      </div>
+    </div>
+
+    <div class="row align-items-md-stretch">
+      <div class="col-md-6">
+        <div class="h-100 p-5 text-bg-dark rounded-3">
+          <h2>Change the background</h2>
+          <p>Swap the background-color utility and add a `.text-*` color utility to mix up the jumbotron look. Then, mix and match with additional component themes and more.</p>
+          <button class="btn btn-outline-light" type="button">Example button</button>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="h-100 p-5 bg-light border rounded-3">
+          <h2>Add borders</h2>
+          <p>Or, keep it light and add a border for some added definition to the boundaries of your content. Be sure to look under the hood at the source HTML here as we've adjusted the alignment and sizing of both column's content for equal-height.</p>
+          <button class="btn btn-outline-secondary" type="button">Example button</button>
+        </div>
+      </div>
+    </div><!-- End of About Section -->
+    <!--Section: Contact v.2-->
+<section class="mb-4">
+
+  <!--Section heading-->
+  <h2 class="h1-responsive font-weight-bold text-center my-4">Contact us</h2>
+  <!--Section description-->
+  <p class="text-center w-responsive mx-auto mb-5">Do you have any questions? Please do not hesitate to contact us directly. Our team will come back to you within
+      a matter of hours to help you.</p>
+
+  <div class="row">
+
+      <!--Grid column-->
+      <div class="col-md-9 mb-md-0 mb-5">
+          <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+
+              <!--Grid row-->
+              <div class="row">
+
+                  <!--Grid column-->
+                  <div class="col-md-6">
+                      <div class="md-form mb-0">
+                          <input type="text" id="name" name="name" class="form-control">
+                          <label for="name" class="">Your name</label>
+                      </div>
+                  </div>
+                  <!--Grid column-->
+
+                  <!--Grid column-->
+                  <div class="col-md-6">
+                      <div class="md-form mb-0">
+                          <input type="text" id="email" name="email" class="form-control">
+                          <label for="email" class="">Your email</label>
+                      </div>
+                  </div>
+                  <!--Grid column-->
+
+              </div>
+              <!--Grid row-->
+
+              <!--Grid row-->
+              <div class="row">
+                  <div class="col-md-12">
+                      <div class="md-form mb-0">
+                          <input type="text" id="subject" name="subject" class="form-control">
+                          <label for="subject" class="">Subject</label>
+                      </div>
+                  </div>
+              </div>
+              <!--Grid row-->
+
+              <!--Grid row-->
+              <div class="row">
+
+                  <!--Grid column-->
+                  <div class="col-md-12">
+
+                      <div class="md-form">
+                          <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
+                          <label for="message">Your message</label>
+                      </div>
+
+                  </div>
+              </div>
+              <!--Grid row-->
+
+          </form>
+
+          <div class="text-center text-md-left">
+              <a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Send</a>
+          </div>
+          <div class="status"></div>
+      </div>
+      <!--Grid column-->
+
+      <!--Grid column-->
+      <div class="col-md-3 text-center">
+          <ul class="list-unstyled mb-0">
+              <li><i class="fas fa-map-marker-alt fa-2x"></i>
+                  <p>San Francisco, CA 94126, USA</p>
+              </li>
+
+              <li><i class="fas fa-phone mt-4 fa-2x"></i>
+                  <p>+ 01 234 567 89</p>
+              </li>
+
+              <li><i class="fas fa-envelope mt-4 fa-2x"></i>
+                  <p>contact@mdbootstrap.com</p>
+              </li>
+          </ul>
+      </div>
+      <!--Grid column-->
+
+  </div>
+
+</section><!-- End of Contact Section-->
+
+    <!-- FAQ Accordion -->
+    <div class="accordion" id="accordionFAQ">
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingOne">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+            FAQ Item #1
+          </button>
+        </h2>
+        <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionFAQ">
+          <div class="accordion-body">
+            <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingTwo">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+            FAQ Item #2
+          </button>
+        </h2>
+        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionFAQ">
+          <div class="accordion-body">
+            <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingThree">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+            FAQ Item #3
+          </button>
+        </h2>
+        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionFAQ">
+          <div class="accordion-body">
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam obcaecati tempore laborum a quia aut laudantium et, dolor asperiores iure quod corrupti, eius reprehenderit! Ratione aspernatur quos odit dolorem porro modi aut temporibus! Sequi, explicabo!</p>
+          </div>
+        </div>
+      </div>
+    </div><!-- End of FAQ Accordion-->
     <!-- Footer -->
     <div class="container">
       <footer class="py-3 my-4">
-        <h1 class="text-center mb-3">here for it</h1>
+        <h1 class="text-center mb-3">footer heading information</h1>
         <ul class="nav justify-content-center border-bottom pb-3 mb-3">
           <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Home</a></li>
           <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Features</a></li>

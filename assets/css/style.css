@@ -5,11 +5,11 @@
   /* Goldenrod */
   --secondary-color: #d4a418;
 
-  /* Blanched Almond */
-  --lite-color: #ffeeca;
-
   /* Alabaser */
-  --alabaster-color: #f1f1e6;
+  --lite-color: #f1f1e6;
+
+  /* Blanched Almond */ 
+  --blanchedAlm-color: #ffeeca;
 
   /* Gold Fusion */
   --darker-color: #867555;
@@ -20,9 +20,15 @@
 
 /* Font Sizes 100, 400, 700 */
 
+/* need to write */
+/* New font sizes for h1-6 p and something else */
+
+
 body {
   background-color: var(--lite-color);
   font-family: 'Lato', sans-serif, monospace;
+  color: black;
+  overflow-x: hidden;
 }
 
 .royalBlue {
@@ -49,7 +55,6 @@ body {
   width: 100px;
   border-radius: 10px;
   margin-bottom: 2rem;
-  text-align: center;
 }
 
 
