@@ -93,8 +93,8 @@ WEBSITE DISCLAIMER
     Website Contact Disclaimer:       
   The use of the Internet or this form as means of contacting this firm or any individual attorney of this
   firm will not establish an attorney‐client relationship, thus do not use this form to submit confidential
-  or time‐sensitive information. Whether you are a new or existing client of the firm, (Firm Name)
+  or time‐sensitive information. Whether you are a new or existing client of the firm, Bauer Law Firm PLLC
   cannot represent you on any new matter until the firm has made a determination that there is no
   conflict of interest and that it is willing and otherwise able to accept the new engagement. Unless
-  and until (Firm Name) has informed you it is willing and able to accept your new matter, do not send
+  and until Bauer Law Firm PLLC has informed you it is willing and able to accept your new matter, do not send
   the firm any information or documents that you consider private or confidential.  
