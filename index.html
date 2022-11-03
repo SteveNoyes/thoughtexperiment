@@ -19,19 +19,19 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
   <!-- External CSS -->
   <link rel="stylesheet" href="assets/css/reset.css">
-  <link rel="stylesheet" href="/assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
   <main>
     <!-- Nav Bar -->
-    <nav class="navbar navbar-expand-md navbar-dark bg-dark" aria-label="Fourth navbar example">
+    <nav class="navbar navbar-expand-md" aria-label="navbar">
       <div class="container-fluid">
         <a class="navbar-brand" href="#"><img src="assets/img/bauerLaw2transparent.png" alt="logo" width="55px"></a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample04" aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCol" aria-controls="navbarCol" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse flex-grow-1 text-right" id="navbarsExample04">
-          <ul class="navbar-nav ms-auto flex-nowrap">
+        <div class="collapse navbar-collapse flex-grow-1" id="navbarCol">
+          <ul class="navbar-nav ms-auto flex-nowrap text-center">
             <li class="nav-item">
               <a href="#" class="nav-link m-2 menu-item nav-active">Home</a>
             </li>
@@ -49,17 +49,24 @@
       </div>
     </nav><!-- End of Nav Bar -->
     <!-- Hero Section -->    
-    <section class="bgimage">
-      <span class="align-text-bottom">number email and something else</span>
+    <section class="bgimage heroContainer">
+      <div class="bottomLeft">
+        <img src="assets/img/phone.svg" width="40px" alt="">
+        <p>(000)000-0000</p>
+      </div>
+      <div class="bottomRight">
+        <img src="assets/img/mail.svg" width="40px" alt="">
+        <a>mail@davisbauer.com</a>
+      </div>  
     </section><!-- End of Hero Section -->
     <!-- Color Scheme -->
     <div class="colorSamples d-flex justify-content-center">
-      <div class="royalBlue sqSamples">Royal Blue</div>
-      <div class="goldenRod sqSamples">Goldenrod</div>
-      <div class="blanAlm sqSamples">Blanched Almond</div>
-      <div class="Alab sqSamples">Alabaster</div>
-      <div class="gldFusn sqSamples">Gold Fusion</div>
-      <div class="cadBlue sqSamples">Cadet Blue</div>
+      <div class="royalBlueBg sqSamples">Royal Blue</div>
+      <div class="goldenRodBg sqSamples">Goldenrod</div>
+      <div class="blanAlmBg sqSamples">Blanched Almond</div>
+      <div class="AlabBg sqSamples">Alabaster</div>
+      <div class="gldFusnBg sqSamples">Gold Fusion</div>
+      <div class="cadBlueBg sqSamples">Cadet Blue</div>
     </div>
     <!-- About Section -->
     <div class="container text-center">
@@ -242,8 +249,6 @@
         <p class="nav col-md-4 justify-content-end">mail@davisbauer.com</p>
       </div>
       <footer class="py-3 my-4">
-        <h1 class="text-center">Company Slogan</h1>
-        <p class="text-center mb-3">The use of the Internet or this form as means of contacting this firm or any individual attorney of this firm will not establish an attorney-client relationship.</p>
         <ul class="nav justify-content-center border-bottom pb-3 mb-3">
           <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Home</a></li>
           <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Practice Areas</a></li>

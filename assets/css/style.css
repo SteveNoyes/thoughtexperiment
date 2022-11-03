@@ -1,28 +1,30 @@
 :root {
   /* Royal Blue */
   --main-color: #3277dc;
-
   /* Goldenrod */
   --secondary-color: #d4a418;
-
   /* Alabaser */
   --lite-color: #f1f1e6;
-
   /* Blanched Almond */ 
   --blanchedAlm-color: #ffeeca;
-
   /* Gold Fusion */
   --darker-color: #867555;
-
   /* Cadet Blue */
   --liteDark-color: #a7aabd;
 }
 
-/* Font Sizes 100, 400, 700 */
+.royalBlueBg { background-color: #3277dc; }
+.goldenRodBg { background-color: #d4a418; }
+.blanAlmBg { background-color: #ffeeca; }
+.AlabBg { background-color: #f1f1e6; }
+.gldFusnBg { background-color: #867555; }
+.cadBlueBg { background-color: #a7aabd; }
 
+
+
+/* Font Sizes 100, 400, 700 */
 /* need to write */
 /* New font sizes for h1-6 p and something else */
-
 
 body {
   background-color: var(--lite-color);
@@ -31,24 +33,7 @@ body {
   overflow-x: hidden;
 }
 
-.royalBlue {
-  background-color: #3277dc;
-}
-.goldenRod {
-  background-color: #d4a418;
-}
-.blanAlm {
-  background-color: #ffeeca;
-}
-.Alab { 
-  background-color: #f1f1e6;
-}
-.gldFusn {
-  background-color: #867555;
-}
-.cadBlue {
-  background-color: #a7aabd;
-}
+/* CRUD */
 
 .sqSamples {
   height: 100px;
@@ -57,8 +42,23 @@ body {
   margin-bottom: 2rem;
 }
 
+/* Nav */
 
+nav {
+  background-color: var(--lite-color);
+}
 
+#navbarCol li:hover {
+  background-color: var(--liteDark-color);
+}
+
+#navbarCol li a:hover {
+  color: var(--lite-color);
+}
+
+.heroContainer {
+  position: relative;
+}
 
 .bgimage {
   width:100%;
@@ -71,9 +71,18 @@ body {
   /* background-attachment: fixed; */
 }
 
+/* Text over hero image */
 
+.bottomLeft {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+  color: var(--lite-color);
+}
 
-
-
-
-
+.bottomRight {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+  color: var(--lite-color);
+}
