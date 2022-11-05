@@ -20,26 +20,22 @@
 .gldFusnBg { background-color: #867555; }
 .cadBlueBg { background-color: #a7aabd; }
 
+/* Global Variables */
 
+  /* Font Sizes 100, 400, 700 */
+  /* need to write */
+  /* New font sizes for h1-6 p and something else */
 
-/* Font Sizes 100, 400, 700 */
-/* need to write */
-/* New font sizes for h1-6 p and something else */
+a {
+  color: var(--secondary-color);
+  text-decoration: none;
+}
 
 body {
   background-color: var(--lite-color);
   font-family: 'Lato', sans-serif, monospace;
   color: black;
   overflow-x: hidden;
-}
-
-/* CRUD */
-
-.sqSamples {
-  height: 100px;
-  width: 100px;
-  border-radius: 10px;
-  margin-bottom: 2rem;
 }
 
 /* Nav */
@@ -66,7 +62,7 @@ nav {
   background: url(../img/heroImg.jpg);
   background-repeat: no-repeat;
   background-position: center;
-  background-size:cover;
+  background-size: cover;
   /* fixed background will stay in play while scrolling */
   /* background-attachment: fixed; */
 }
@@ -77,12 +73,10 @@ nav {
   position: absolute;
   bottom: 8px;
   left: 16px;
-  color: var(--lite-color);
 }
 
 .bottomRight {
   position: absolute;
   bottom: 8px;
   right: 16px;
-  color: var(--lite-color);
 }
