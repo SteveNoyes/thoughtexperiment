@@ -63,7 +63,7 @@ nav {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  /* fixed background will stay in play while scrolling */
+  /* fixed background will stay in place while scrolling */
   /* background-attachment: fixed; */
 }
 
