@@ -22,9 +22,8 @@
 
 /* Global Variables */
 
-  /* Font Sizes 100, 400, 700 */
-  /* need to write */
-  /* New font sizes for h1-6 p and something else */
+  /* Font Weight 100, 400, 700 */
+
 
 a {
   color: var(--secondary-color);
@@ -67,7 +66,7 @@ nav {
   /* background-attachment: fixed; */
 }
 
-/* Text over hero image */
+/* Text position over hero image */
 
 .bottomLeft {
   position: absolute;
