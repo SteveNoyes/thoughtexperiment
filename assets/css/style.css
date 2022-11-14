@@ -19,6 +19,7 @@
 .AlabBg { background-color: #f1f1e6; }
 .gldFusnBg { background-color: #867555; }
 .cadBlueBg { background-color: #a7aabd; }
+.footerColor {background-color: #002274;}
 
 /* Global Variables */
 
@@ -30,7 +31,7 @@ a {
 }
 
 a:hover {
-  color: red;
+  color: var(--secondary-color);
 }
 
 body {
@@ -137,9 +138,15 @@ nav {
 
 /* Footer */
 
+footer {
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
 .smLogo {
   text-align: center;
   margin: auto;
+  padding: 1rem 0 1rem 0;
+  background-color: var(--lite-color);
 }
 
 .footerLogoLG {
