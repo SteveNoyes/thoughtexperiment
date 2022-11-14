@@ -37,6 +37,14 @@ body {
   overflow-x: hidden;
 }
 
+.smText {
+  font-size: 10px;
+}
+
+.smHidden {
+  display: none;
+}
+
 /* Nav */
 
 nav {
@@ -78,4 +86,22 @@ nav {
   position: absolute;
   bottom: 8px;
   right: 16px;
+}
+
+
+/* Media Queries */
+
+@media (min-width: 900px) {
+  .genRep {
+    text-align: center;
+  }
+  .genRep p {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+
+  .smHidden {
+    display: flex;
+  }
 }
