@@ -133,6 +133,12 @@ nav {
   background-color: #f8f8f2cb
 }
 
+/* Accordion */
+
+.accordion {
+  max-width: 700px;
+  margin: auto;
+}
 
 
 /* Footer */
