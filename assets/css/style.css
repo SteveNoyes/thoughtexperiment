@@ -133,6 +133,34 @@ nav {
   background-color: #f8f8f2cb
 }
 
+/* Practice Areas */
+
+.grow { 
+  transition: all .2s ease-in-out; 
+}
+  
+.grow:hover { 
+  transform: scale(1.1); 
+}
+
+/* Shrink Buttons on Hover */
+/* .shrink { 
+  transition: all .2s ease-in-out; 
+}
+
+.shrink:hover { 
+  transform: scale(0.9); 
+} */
+
+.btn-prim {
+  background-color: var(--secondary-color);
+  color: var(--blanchedAlm-color)
+}
+
+.btn-prim:hover {
+
+}
+
 /* Accordion */
 
 .accordion {
