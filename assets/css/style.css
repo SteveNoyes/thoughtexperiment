@@ -107,6 +107,12 @@ nav {
   color: var(--lite-color);
 }
 
+.navbar {
+  
+}
+
+/* Hero Section */
+
 .heroContainer {
   position: relative;
 }
