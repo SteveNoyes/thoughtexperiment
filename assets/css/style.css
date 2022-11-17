@@ -16,6 +16,9 @@
   /* Cadet Blue */
   --liteDark-color: #a7aabd;
 }
+
+/* Variable Colors */
+
 .royalBlueBg { background-color: #3277dc; }
 .goldenRodBg { background-color: #d4a418; }
 .blanAlmBg { background-color: #ffeeca; }
@@ -166,7 +169,6 @@ nav {
   background-color: var(--main-fade-color);
   color: var(--lite-color);
 }
-
 
 /* Accordion */
 
