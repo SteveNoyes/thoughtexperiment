@@ -6,7 +6,7 @@
   /* Goldenrod */
   --secondary-color: #d4a418;
   /* Faded Goldenrod */
-  --second-fade-color: rgba(212, 164, 24, 0.5);
+  --second-fade-color: rgba(212, 164, 24, 0.1);
   /* Alabaser */
   --lite-color: #f1f1e6;
   /* Blanched Almond */
@@ -15,6 +15,8 @@
   --darker-color: #867555;
   /* Cadet Blue */
   --liteDark-color: #a7aabd;
+  /* Faded Cadet Blue */
+  --liteDark-fade-color: rgba(167, 170, 189, 0.3); 
 }
 
 /* Variable Colors */
@@ -88,7 +90,7 @@ nav {
 
 .bgimage {
   width: 100%;
-  height: 70vh;
+  height: 80vh;
   background: url(../img/landscapeBGwLogo.jpg);
   background-repeat: no-repeat;
   background-position: center;
@@ -113,6 +115,12 @@ nav {
   padding-right: 6px;
   border-radius: 8px;
   background-color: #f8f8f2cb
+}
+
+/* About Section */
+
+.abtSec {
+  width: 80%;
 }
 
 /* Practice Areas */
@@ -143,6 +151,13 @@ nav {
 .btn-prim:hover {
   background-color: var(--main-fade-color);
   color: var(--lite-color);
+}
+
+/* Contact Form */
+
+.contactForm {
+  background-color: var(--liteDark-fade-color);
+  
 }
 
 /* Accordion */
@@ -189,7 +204,7 @@ footer {
   text-align: center;
   margin: auto;
   padding: 1rem 0 1rem 0;
-  background-color: var(--lite-color);
+  background-color: white;
 }
 
 .footerLogoLG {
@@ -201,7 +216,7 @@ footer {
 
   .bgimage {
     width: 100%;
-    height: 70vh;
+    height: 90vh;
     background: url(../img/heroImg.jpg);
     background-repeat: no-repeat;
     background-position: center;
@@ -215,6 +230,16 @@ footer {
   .genRep p {
     margin-left: auto;
     margin-right: auto;
+  }
+
+
+  .abtSec {
+    width: 50%;
+  }
+
+  .webDisclaimer {
+    width: 60%;
+    margin: auto;
   }
 
 
