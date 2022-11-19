@@ -19,7 +19,7 @@
   --liteDark-fade-color: rgba(167, 170, 189, 0.3); 
 }
 
-/* Variable Colors */
+/* Color Variables */
 
 .royalBlueBg { background-color: #3277dc; }
 .goldenRodBg { background-color: #d4a418; }
@@ -90,8 +90,8 @@ nav {
 
 .bgimage {
   width: 100%;
-  height: 80vh;
-  background: url(../img/landscapeBGwLogo.jpg);
+  height: 100vh;
+  background: url(../img/hero0.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;

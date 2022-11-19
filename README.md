@@ -25,7 +25,7 @@ Location (https://wb-law.com)
 
 ### Links
 
-- Live Site URL: [Github Pages](https://stevenoyes.github.io/te/)
+- Live Site URL: [lorem](https://)
 
 ## My process
 
@@ -33,6 +33,8 @@ Location (https://wb-law.com)
 
 - HTML5 
 - Mobile-first workflow
+- Bootstrap
+- Vanilla JavaScript
 
 Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
 
