@@ -20,7 +20,6 @@
 }
 
 /* Color Variables */
-
 .royalBlueBg { background-color: #3277dc; }
 .goldenRodBg { background-color: #d4a418; }
 .blanAlmBg { background-color: #ffeeca; }
@@ -30,7 +29,6 @@
 .footerColor {background-color: #252525;}
 
 /* Global Variables */
-
 /* Font Weight 100, 400, 700 */
 
 a {
@@ -69,7 +67,6 @@ body {
 }
 
 /* Nav */
-
 nav {
   background-color: var(--lite-color);
 }
@@ -83,7 +80,6 @@ nav {
 }
 
 /* Hero Section */
-
 .heroContainer {
   position: relative;
 }
@@ -98,7 +94,6 @@ nav {
 }
 
 /* Text positioned over hero image */
-
 .bottomLeft {
   position: absolute;
   bottom: 8px;
@@ -122,13 +117,11 @@ nav {
 }
 
 /* About Section */
-
 .abtSec {
   width: 80%;
 }
 
 /* Practice Areas */
-
 .grow { 
   transition: all .2s ease-in-out; 
   box-shadow: 3px 5px 7px 2px rgba(0, 0, 0, 0.2);
@@ -137,15 +130,6 @@ nav {
 .grow:hover { 
   transform: scale(1.1); 
 }
-
-/* Shrink Buttons on Hover */
-/* .shrink { 
-  transition: all .2s ease-in-out; 
-}
-
-.shrink:hover { 
-  transform: scale(0.9); 
-} */
 
 .btn-prim {
   background-color: var(--main-color);
@@ -168,7 +152,6 @@ nav {
 }
 
 /* Contact Form */
-
 .contactForm {
   background-color: var(--liteDark-fade-color);
   
@@ -179,7 +162,6 @@ nav {
 }
 
 /* Accordion */
-
 .accordion {
   max-width: 700px;
   margin: auto;
@@ -213,7 +195,6 @@ nav {
 }
 
 /* Footer */
-
 footer {
   border: 1px solid rgba(255, 255, 255, 0.1);
 }
@@ -230,7 +211,6 @@ footer {
 }
 
 /* Media Queries */
-
 @media (min-width: 600px) {
   .states {
     display: flex!important;
@@ -256,7 +236,6 @@ footer {
     left: 20%;
   }
 
-
   .genRep {
     text-align: center;
   }
@@ -278,7 +257,6 @@ footer {
     margin: auto;
   }
   
-
   .smHidden {
     display: flex;
   }
@@ -291,8 +269,6 @@ footer {
   }
 }
 
-
 /* Pages */
 
 /* Contact */
-

@@ -9,6 +9,7 @@
   $subject = $_POST['subject'];
 
   $content="From: $name \n Email: $email \n Message: $message";
+  // Change to client email address
   $recipient = "youremail@here.com";
   $mailheader = "From: $email \r\n";
   mail($recipient, $subject, $content, $mailheader) or die("Error!");
