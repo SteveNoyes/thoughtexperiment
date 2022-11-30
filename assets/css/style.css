@@ -214,6 +214,10 @@ footer {
   display: none;
 }
 
+.bottomMenu:hover {
+  color: var(--liteDark-color)!important;
+}
+
 /* Media Queries */
 @media (min-width: 600px) {
   .states {
