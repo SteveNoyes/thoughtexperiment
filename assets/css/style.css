@@ -17,9 +17,12 @@
   --liteDark-color: #a7aabd;
   /* Faded Cadet Blue */
   --liteDark-fade-color: rgba(167, 170, 189, 0.3); 
+  --gray-nav: #64646467;
 }
 
 /* Color Variables */
+.crud {color: #ffffff70;}
+
 .royalBlueBg { background-color: #3277dc; }
 .goldenRodBg { background-color: #d4a418; }
 .blanAlmBg { background-color: #ffeeca; }
@@ -27,9 +30,18 @@
 .gldFusnBg { background-color: #867555; }
 .cadBlueBg { background-color: #a7aabd; }
 .footerColor {background-color: #252525;}
+.grayNav { background-color: #64646454; }
 
 /* Global Variables */
-/* Font Weight 100, 400, 700 */
+/* Font Weights 100, 400, 700 */
+
+body {
+  background-color: white;
+  font-family: 'Lato', sans-serif, monospace;
+  font-size: 15px;
+  color: black;
+  overflow-x: hidden;
+}
 
 a {
   color: var(--secondary-color);
@@ -38,14 +50,6 @@ a {
 
 a:hover {
   color: var(--secondary-color);
-}
-
-body {
-  background-color: white;
-  font-family: 'Lato', sans-serif, monospace;
-  font-size: 13px;
-  color: black;
-  overflow-x: hidden;
 }
 
 .smText {
@@ -231,9 +235,11 @@ footer {
   .cta {
     display: inline;
     position: absolute;
-    color: white;
+    color: var(--lite-color);
     top: 30%;
     left: 20%;
+    padding: 2rem;
+    background-color: var(--gray-nav);
   }
 
   .genRep {
@@ -269,6 +275,44 @@ footer {
   }
 }
 
+@media (min-width: 40em) {
+  .featurette-heading {
+    font-size: 50px;
+  }
+}
+
+@media (min-width: 62em) {
+  .featurette-heading {
+    margin-top: 7rem;
+  }
+}
+
 /* Pages */
 
 /* Contact */
+
+/* Results */
+
+.marketing .col-lg-4 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.marketing .col-lg-4 p {
+  margin-right: .75rem;
+  margin-left: .75rem;
+}
+
+.singular {
+  display: flex;
+}
+
+/* Practice Areas */
+
+.featurette-divider {
+  margin: 5rem 0;
+}
+
+.featurette-heading {
+  letter-spacing: -.05rem;
+}
