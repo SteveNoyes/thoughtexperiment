@@ -1,13 +1,4 @@
 ## Table of contents
-- attorney in Arizona, Colorado, Missouri, Texas, and Utah
-  highlights 
-      demand letters, 
-      cease & desist, and 
-      general representation
-
-Reference Site (https://www.hassettglasser.com)
-Location (https://wb-law.com)
-
 
 - [Overview](#overview)
   - [Links](#links)
